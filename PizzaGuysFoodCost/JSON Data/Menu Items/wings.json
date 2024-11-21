@@ -1,0 +1,51 @@
+{
+	"wings" : [
+	{
+		"id" : 1,
+		"name": "8PCs Wings",
+		"imageName": "8wingsLogo",
+		"quantity" : 8.0,
+		"sauceAmount": 2.5,
+		"dippingSauceQty" : 1
+	},
+	{
+		"id" : 2,
+		"name": "12PCs Wings",
+		"imageName": "12wingsLogo",
+		"quantity" : 12.0,
+		"sauceAmount": 4.0,
+		"dippingSauceQty" : 1
+
+	},
+	{
+		"id" : 3,
+		"name": "16PCs Wings",
+		"imageName": "16wingsLogo",
+		"quantity" : 16.0,
+		"sauceAmount": 5.5,
+		"dippingSauceQty" : 2
+	},
+	{
+		"id" : 4,
+		"name": "24PCs Wings",
+		"imageName": "24wingsLogo",
+		"quantity" : 24.0,
+		"sauceAmount": 8.0,
+		"dippingSauceQty" : 3
+	},
+	{
+		"id" : 5,
+		"name": "8 Boneless Wings",
+		"imageName": "8BoneLessLogo",
+		"quantity" : 8.0,
+		"dippingSauceQty": 1
+	},
+	{
+		"id" : 6,
+		"name": "12 Boneless Wings",
+		"imageName": "12BoneLessLogo",
+		"quantity" : 12.0,
+		"dippingSauceQty": 1
+	}
+	]
+}

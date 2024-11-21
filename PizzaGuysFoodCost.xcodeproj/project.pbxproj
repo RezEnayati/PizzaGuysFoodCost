@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3492E62CC71FCF00018378 /* PizzaGuysFoodCostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3492E52CC71FCF00018378 /* PizzaGuysFoodCostApp.swift */; };
+		AF3492E82CC71FCF00018378 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3492E72CC71FCF00018378 /* HomeView.swift */; };
+		AF3492EA2CC71FD000018378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3492E92CC71FD000018378 /* Assets.xcassets */; };
+		AF3492ED2CC71FD000018378 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3492EC2CC71FD000018378 /* Preview Assets.xcassets */; };
+		AF3492F42CC7666200018378 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3492F32CC7666200018378 /* Category.swift */; };
+		AF3492F62CC7669700018378 /* HomeView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3492F52CC7669700018378 /* HomeView-ViewModel.swift */; };
+		AF3492F92CC82BE900018378 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3492F82CC82BE900018378 /* ItemView.swift */; };
+		AF3492FD2CC850BD00018378 /* CategoryItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3492FC2CC850BD00018378 /* CategoryItemsView.swift */; };
+		AF3492FF2CC85B5600018378 /* PizzaGuysToolBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3492FE2CC85B5600018378 /* PizzaGuysToolBarItem.swift */; };
+		AF3493012CC888B200018378 /* PizzaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493002CC888B200018378 /* PizzaResponse.swift */; };
+		AF3493062CC98E8100018378 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493052CC98E8100018378 /* Extensions.swift */; };
+		AF34930B2CC998BE00018378 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34930A2CC998BE00018378 /* LoadingView.swift */; };
+		AF34930D2CC9A68100018378 /* CategoryItemsView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34930C2CC9A68100018378 /* CategoryItemsView-ViewModel.swift */; };
+		AF3493132CCA25AD00018378 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493122CCA25AD00018378 /* ItemListView.swift */; };
+		AF3493172CCA405500018378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3493162CCA405500018378 /* LaunchScreen.storyboard */; };
+		AF34931B2CCB72C000018378 /* FlatbreadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34931A2CCB72C000018378 /* FlatbreadResponse.swift */; };
+		AF34931D2CCB73D500018378 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34931C2CCB73D500018378 /* MenuItemProtocol.swift */; };
+		AF34931F2CCCC4E900018378 /* PastaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34931E2CCCC4E900018378 /* PastaResponse.swift */; };
+		AF3493212CCE27E500018378 /* AppetizerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493202CCE27E500018378 /* AppetizerResponse.swift */; };
+		AF3493232CCE365400018378 /* WingsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493222CCE365400018378 /* WingsResponse.swift */; };
+		AF3493252CCE410E00018378 /* SaladsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493242CCE410E00018378 /* SaladsResponse.swift */; };
+		AF3493272CCE483A00018378 /* DessertsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493262CCE483A00018378 /* DessertsResponse.swift */; };
+		AF3493292CCEF1B000018378 /* CateringResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3493282CCEF1B000018378 /* CateringResponse.swift */; };
+		AF34932B2CCF073D00018378 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34932A2CCF073D00018378 /* WelcomeView.swift */; };
+		AF3493362CCF326F00018378 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = AF34932D2CCF326F00018378 /* menu.json */; };
+		AF3493372CCF326F00018378 /* apps.json in Resources */ = {isa = PBXBuildFile; fileRef = AF34932E2CCF326F00018378 /* apps.json */; };
+		AF3493382CCF326F00018378 /* flatbread.json in Resources */ = {isa = PBXBuildFile; fileRef = AF34932F2CCF326F00018378 /* flatbread.json */; };
+		AF3493392CCF326F00018378 /* catering.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3493302CCF326F00018378 /* catering.json */; };
+		AF34933A2CCF326F00018378 /* desserts.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3493312CCF326F00018378 /* desserts.json */; };
+		AF34933B2CCF326F00018378 /* salads.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3493322CCF326F00018378 /* salads.json */; };
+		AF34933C2CCF326F00018378 /* wings.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3493332CCF326F00018378 /* wings.json */; };
+		AF34933D2CCF326F00018378 /* pasta.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3493342CCF326F00018378 /* pasta.json */; };
+		AF34933E2CCF326F00018378 /* pizza.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3493352CCF326F00018378 /* pizza.json */; };
+		AF40DC0C2CD2D27A002AB3F5 /* AppetizerCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC0B2CD2D27A002AB3F5 /* AppetizerCostView.swift */; };
+		AF40DC0F2CD6F809002AB3F5 /* NameServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC0E2CD6F809002AB3F5 /* NameServiceProtocols.swift */; };
+		AF40DC142CD6F990002AB3F5 /* PriceServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC132CD6F990002AB3F5 /* PriceServiceProtocols.swift */; };
+		AF40DC162CD6FDF3002AB3F5 /* ToppingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC152CD6FDF3002AB3F5 /* ToppingInfo.swift */; };
+		AF40DC182CD881A7002AB3F5 /* AppetizerCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC172CD881A7002AB3F5 /* AppetizerCostView-ViewModel.swift */; };
+		AF40DC1A2CDC1DED002AB3F5 /* WingsCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC192CDC1DED002AB3F5 /* WingsCostView.swift */; };
+		AF40DC1C2CDC1E5E002AB3F5 /* WingsCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC1B2CDC1E5E002AB3F5 /* WingsCostView-ViewModel.swift */; };
+		AF40DC1E2CDC72C1002AB3F5 /* PastaCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC1D2CDC72C1002AB3F5 /* PastaCostView.swift */; };
+		AF40DC202CDC72DE002AB3F5 /* PastaCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC1F2CDC72DE002AB3F5 /* PastaCostView-ViewModel.swift */; };
+		AF40DC222CDCA13B002AB3F5 /* SaladCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC212CDCA13B002AB3F5 /* SaladCostView.swift */; };
+		AF40DC242CDCA14F002AB3F5 /* SaladCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40DC232CDCA14F002AB3F5 /* SaladCostView-ViewModel.swift */; };
+		AF601D2B2CE5607F00256143 /* CateringCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601D2A2CE5607F00256143 /* CateringCostView.swift */; };
+		AF601D2D2CE560A900256143 /* cateringCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601D2C2CE560A900256143 /* cateringCostView-ViewModel.swift */; };
+		AF601D2F2CE5DEEF00256143 /* DessertCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601D2E2CE5DEEF00256143 /* DessertCostView.swift */; };
+		AF601D312CE5DEFF00256143 /* DessertCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601D302CE5DEFF00256143 /* DessertCostView-ViewModel.swift */; };
+		AF601D362CE7EB6B00256143 /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601D352CE7EB6B00256143 /* ExtrasView.swift */; };
+		AF601D382CE7EB9700256143 /* ExtrasView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601D372CE7EB9700256143 /* ExtrasView-ViewModel.swift */; };
+		AF601D3A2CE7FE4D00256143 /* extras.json in Resources */ = {isa = PBXBuildFile; fileRef = AF601D392CE7FE4D00256143 /* extras.json */; };
+		AF601D3C2CE7FFF900256143 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601D3B2CE7FFF900256143 /* Extras.swift */; };
+		AFCB2EB22CD00AE900187912 /* ItemCostSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EB12CD00AE900187912 /* ItemCostSheet.swift */; };
+		AFCB2EB42CD02A9800187912 /* PizzaCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EB32CD02A9800187912 /* PizzaCostView.swift */; };
+		AFCB2EB72CD047E600187912 /* ToppingKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = AFCB2EB62CD047E600187912 /* ToppingKeys.json */; };
+		AFCB2EBB2CD0926000187912 /* PizzaCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EBA2CD0926000187912 /* PizzaCostView-ViewModel.swift */; };
+		AFCB2EBD2CD187CF00187912 /* ingredients.json in Resources */ = {isa = PBXBuildFile; fileRef = AFCB2EBC2CD187CF00187912 /* ingredients.json */; };
+		AFCB2EBF2CD187F800187912 /* IngredientsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EBE2CD187F800187912 /* IngredientsData.swift */; };
+		AFCB2EC22CD18ABC00187912 /* ItemPriceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EC12CD18ABC00187912 /* ItemPriceCalculator.swift */; };
+		AFCB2EC62CD2A02B00187912 /* FlatbreadCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EC52CD2A02B00187912 /* FlatbreadCostView.swift */; };
+		AFCB2EC82CD2A27700187912 /* ToppingNameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EC72CD2A27700187912 /* ToppingNameService.swift */; };
+		AFCB2ECA2CD2BC8F00187912 /* FlatbreadCostView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB2EC92CD2BC8F00187912 /* FlatbreadCostView-ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF3492E22CC71FCF00018378 /* PizzaGuysFoodCost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaGuysFoodCost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3492E52CC71FCF00018378 /* PizzaGuysFoodCostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaGuysFoodCostApp.swift; sourceTree = "<group>"; };
+		AF3492E72CC71FCF00018378 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF3492E92CC71FD000018378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF3492EC2CC71FD000018378 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF3492F32CC7666200018378 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AF3492F52CC7669700018378 /* HomeView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF3492F82CC82BE900018378 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		AF3492FC2CC850BD00018378 /* CategoryItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemsView.swift; sourceTree = "<group>"; };
+		AF3492FE2CC85B5600018378 /* PizzaGuysToolBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaGuysToolBarItem.swift; sourceTree = "<group>"; };
+		AF3493002CC888B200018378 /* PizzaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaResponse.swift; sourceTree = "<group>"; };
+		AF3493052CC98E8100018378 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF34930A2CC998BE00018378 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AF34930C2CC9A68100018378 /* CategoryItemsView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryItemsView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF3493122CCA25AD00018378 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		AF3493162CCA405500018378 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF34931A2CCB72C000018378 /* FlatbreadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatbreadResponse.swift; sourceTree = "<group>"; };
+		AF34931C2CCB73D500018378 /* MenuItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemProtocol.swift; sourceTree = "<group>"; };
+		AF34931E2CCCC4E900018378 /* PastaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaResponse.swift; sourceTree = "<group>"; };
+		AF3493202CCE27E500018378 /* AppetizerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerResponse.swift; sourceTree = "<group>"; };
+		AF3493222CCE365400018378 /* WingsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WingsResponse.swift; sourceTree = "<group>"; };
+		AF3493242CCE410E00018378 /* SaladsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladsResponse.swift; sourceTree = "<group>"; };
+		AF3493262CCE483A00018378 /* DessertsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsResponse.swift; sourceTree = "<group>"; };
+		AF3493282CCEF1B000018378 /* CateringResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateringResponse.swift; sourceTree = "<group>"; };
+		AF34932A2CCF073D00018378 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AF34932D2CCF326F00018378 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		AF34932E2CCF326F00018378 /* apps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apps.json; sourceTree = "<group>"; };
+		AF34932F2CCF326F00018378 /* flatbread.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flatbread.json; sourceTree = "<group>"; };
+		AF3493302CCF326F00018378 /* catering.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = catering.json; sourceTree = "<group>"; };
+		AF3493312CCF326F00018378 /* desserts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = desserts.json; sourceTree = "<group>"; };
+		AF3493322CCF326F00018378 /* salads.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = salads.json; sourceTree = "<group>"; };
+		AF3493332CCF326F00018378 /* wings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wings.json; sourceTree = "<group>"; };
+		AF3493342CCF326F00018378 /* pasta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pasta.json; sourceTree = "<group>"; };
+		AF3493352CCF326F00018378 /* pizza.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizza.json; sourceTree = "<group>"; };
+		AF40DC0B2CD2D27A002AB3F5 /* AppetizerCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerCostView.swift; sourceTree = "<group>"; };
+		AF40DC0E2CD6F809002AB3F5 /* NameServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameServiceProtocols.swift; sourceTree = "<group>"; };
+		AF40DC132CD6F990002AB3F5 /* PriceServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceServiceProtocols.swift; sourceTree = "<group>"; };
+		AF40DC152CD6FDF3002AB3F5 /* ToppingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingInfo.swift; sourceTree = "<group>"; };
+		AF40DC172CD881A7002AB3F5 /* AppetizerCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppetizerCostView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF40DC192CDC1DED002AB3F5 /* WingsCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WingsCostView.swift; sourceTree = "<group>"; };
+		AF40DC1B2CDC1E5E002AB3F5 /* WingsCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WingsCostView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF40DC1D2CDC72C1002AB3F5 /* PastaCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaCostView.swift; sourceTree = "<group>"; };
+		AF40DC1F2CDC72DE002AB3F5 /* PastaCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PastaCostView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF40DC212CDCA13B002AB3F5 /* SaladCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladCostView.swift; sourceTree = "<group>"; };
+		AF40DC232CDCA14F002AB3F5 /* SaladCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaladCostView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF601D2A2CE5607F00256143 /* CateringCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateringCostView.swift; sourceTree = "<group>"; };
+		AF601D2C2CE560A900256143 /* cateringCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cateringCostView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF601D2E2CE5DEEF00256143 /* DessertCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertCostView.swift; sourceTree = "<group>"; };
+		AF601D302CE5DEFF00256143 /* DessertCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DessertCostView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF601D352CE7EB6B00256143 /* ExtrasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasView.swift; sourceTree = "<group>"; };
+		AF601D372CE7EB9700256143 /* ExtrasView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtrasView-ViewModel.swift"; sourceTree = "<group>"; };
+		AF601D392CE7FE4D00256143 /* extras.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = extras.json; sourceTree = "<group>"; };
+		AF601D3B2CE7FFF900256143 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		AFCB2EB12CD00AE900187912 /* ItemCostSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCostSheet.swift; sourceTree = "<group>"; };
+		AFCB2EB32CD02A9800187912 /* PizzaCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCostView.swift; sourceTree = "<group>"; };
+		AFCB2EB62CD047E600187912 /* ToppingKeys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ToppingKeys.json; sourceTree = "<group>"; };
+		AFCB2EBA2CD0926000187912 /* PizzaCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PizzaCostView-ViewModel.swift"; sourceTree = "<group>"; };
+		AFCB2EBC2CD187CF00187912 /* ingredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
+		AFCB2EBE2CD187F800187912 /* IngredientsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsData.swift; sourceTree = "<group>"; };
+		AFCB2EC12CD18ABC00187912 /* ItemPriceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPriceCalculator.swift; sourceTree = "<group>"; };
+		AFCB2EC52CD2A02B00187912 /* FlatbreadCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatbreadCostView.swift; sourceTree = "<group>"; };
+		AFCB2EC72CD2A27700187912 /* ToppingNameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingNameService.swift; sourceTree = "<group>"; };
+		AFCB2EC92CD2BC8F00187912 /* FlatbreadCostView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlatbreadCostView-ViewModel.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3492DF2CC71FCF00018378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3492D92CC71FCF00018378 = {
+			isa = PBXGroup;
+			children = (
+				AF3492E42CC71FCF00018378 /* PizzaGuysFoodCost */,
+				AF3492E32CC71FCF00018378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3492E32CC71FCF00018378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3492E22CC71FCF00018378 /* PizzaGuysFoodCost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3492E42CC71FCF00018378 /* PizzaGuysFoodCost */ = {
+			isa = PBXGroup;
+			children = (
+				AF3492E52CC71FCF00018378 /* PizzaGuysFoodCostApp.swift */,
+				AF34932C2CCF322300018378 /* JSON Data */,
+				AF3493072CC98F3500018378 /* Extras */,
+				AFCB2EC02CD18AA000187912 /* Services */,
+				AF3492FB2CC82E6A00018378 /* Models */,
+				AF3492FA2CC82E5200018378 /* ViewModels */,
+				AF3492F72CC82BD500018378 /* Views */,
+				AF3492E92CC71FD000018378 /* Assets.xcassets */,
+				AF3492EB2CC71FD000018378 /* Preview Content */,
+			);
+			path = PizzaGuysFoodCost;
+			sourceTree = "<group>";
+		};
+		AF3492EB2CC71FD000018378 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF3492EC2CC71FD000018378 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF3492F72CC82BD500018378 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2EB52CD02A9D00187912 /* Item Cost Views */,
+				AFCB2EB02CD00A7000187912 /* Supporting Views (No VM) */,
+				AF3492E72CC71FCF00018378 /* HomeView.swift */,
+				AF3493122CCA25AD00018378 /* ItemListView.swift */,
+				AF3492FC2CC850BD00018378 /* CategoryItemsView.swift */,
+				AFCB2EB12CD00AE900187912 /* ItemCostSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF3492FA2CC82E5200018378 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF3492F52CC7669700018378 /* HomeView-ViewModel.swift */,
+				AF34930C2CC9A68100018378 /* CategoryItemsView-ViewModel.swift */,
+				AFCB2EBA2CD0926000187912 /* PizzaCostView-ViewModel.swift */,
+				AFCB2EC92CD2BC8F00187912 /* FlatbreadCostView-ViewModel.swift */,
+				AF40DC172CD881A7002AB3F5 /* AppetizerCostView-ViewModel.swift */,
+				AF40DC1B2CDC1E5E002AB3F5 /* WingsCostView-ViewModel.swift */,
+				AF40DC1F2CDC72DE002AB3F5 /* PastaCostView-ViewModel.swift */,
+				AF40DC232CDCA14F002AB3F5 /* SaladCostView-ViewModel.swift */,
+				AF601D2C2CE560A900256143 /* cateringCostView-ViewModel.swift */,
+				AF601D302CE5DEFF00256143 /* DessertCostView-ViewModel.swift */,
+				AF601D372CE7EB9700256143 /* ExtrasView-ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AF3492FB2CC82E6A00018378 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF3492F32CC7666200018378 /* Category.swift */,
+				AF3493002CC888B200018378 /* PizzaResponse.swift */,
+				AF34931A2CCB72C000018378 /* FlatbreadResponse.swift */,
+				AF34931E2CCCC4E900018378 /* PastaResponse.swift */,
+				AF3493202CCE27E500018378 /* AppetizerResponse.swift */,
+				AF3493222CCE365400018378 /* WingsResponse.swift */,
+				AF3493242CCE410E00018378 /* SaladsResponse.swift */,
+				AF3493262CCE483A00018378 /* DessertsResponse.swift */,
+				AF3493282CCEF1B000018378 /* CateringResponse.swift */,
+				AFCB2EBE2CD187F800187912 /* IngredientsData.swift */,
+				AF40DC152CD6FDF3002AB3F5 /* ToppingInfo.swift */,
+				AF601D3B2CE7FFF900256143 /* Extras.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF3493072CC98F3500018378 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				AF3493162CCA405500018378 /* LaunchScreen.storyboard */,
+				AF3493052CC98E8100018378 /* Extensions.swift */,
+				AF3492FE2CC85B5600018378 /* PizzaGuysToolBarItem.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		AF34932C2CCF322300018378 /* JSON Data */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2ECB2CD2C3FB00187912 /* Menu Items */,
+				AFCB2EBC2CD187CF00187912 /* ingredients.json */,
+				AFCB2EB62CD047E600187912 /* ToppingKeys.json */,
+				AF34932D2CCF326F00018378 /* menu.json */,
+			);
+			path = "JSON Data";
+			sourceTree = "<group>";
+		};
+		AF40DC0D2CD6F7D6002AB3F5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AF34931C2CCB73D500018378 /* MenuItemProtocol.swift */,
+				AF40DC0E2CD6F809002AB3F5 /* NameServiceProtocols.swift */,
+				AF40DC132CD6F990002AB3F5 /* PriceServiceProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AF40DC122CD6F905002AB3F5 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2EC12CD18ABC00187912 /* ItemPriceCalculator.swift */,
+				AFCB2EC72CD2A27700187912 /* ToppingNameService.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		AFCB2EB02CD00A7000187912 /* Supporting Views (No VM) */ = {
+			isa = PBXGroup;
+			children = (
+				AF3492F82CC82BE900018378 /* ItemView.swift */,
+				AF34930A2CC998BE00018378 /* LoadingView.swift */,
+				AF34932A2CCF073D00018378 /* WelcomeView.swift */,
+			);
+			path = "Supporting Views (No VM)";
+			sourceTree = "<group>";
+		};
+		AFCB2EB52CD02A9D00187912 /* Item Cost Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB2EB32CD02A9800187912 /* PizzaCostView.swift */,
+				AFCB2EC52CD2A02B00187912 /* FlatbreadCostView.swift */,
+				AF40DC0B2CD2D27A002AB3F5 /* AppetizerCostView.swift */,
+				AF40DC192CDC1DED002AB3F5 /* WingsCostView.swift */,
+				AF40DC1D2CDC72C1002AB3F5 /* PastaCostView.swift */,
+				AF40DC212CDCA13B002AB3F5 /* SaladCostView.swift */,
+				AF601D2A2CE5607F00256143 /* CateringCostView.swift */,
+				AF601D2E2CE5DEEF00256143 /* DessertCostView.swift */,
+				AF601D352CE7EB6B00256143 /* ExtrasView.swift */,
+			);
+			path = "Item Cost Views";
+			sourceTree = "<group>";
+		};
+		AFCB2EC02CD18AA000187912 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF40DC0D2CD6F7D6002AB3F5 /* Protocols */,
+				AF40DC122CD6F905002AB3F5 /* Implementation */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AFCB2ECB2CD2C3FB00187912 /* Menu Items */ = {
+			isa = PBXGroup;
+			children = (
+				AF3493352CCF326F00018378 /* pizza.json */,
+				AF34932F2CCF326F00018378 /* flatbread.json */,
+				AF34932E2CCF326F00018378 /* apps.json */,
+				AF3493332CCF326F00018378 /* wings.json */,
+				AF3493302CCF326F00018378 /* catering.json */,
+				AF3493342CCF326F00018378 /* pasta.json */,
+				AF3493322CCF326F00018378 /* salads.json */,
+				AF3493312CCF326F00018378 /* desserts.json */,
+				AF601D392CE7FE4D00256143 /* extras.json */,
+			);
+			path = "Menu Items";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3492E12CC71FCF00018378 /* PizzaGuysFoodCost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3492F02CC71FD000018378 /* Build configuration list for PBXNativeTarget "PizzaGuysFoodCost" */;
+			buildPhases = (
+				AF3492DE2CC71FCF00018378 /* Sources */,
+				AF3492DF2CC71FCF00018378 /* Frameworks */,
+				AF3492E02CC71FCF00018378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaGuysFoodCost;
+			productName = PizzaGuysFoodCost;
+			productReference = AF3492E22CC71FCF00018378 /* PizzaGuysFoodCost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3492DA2CC71FCF00018378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AF3492E12CC71FCF00018378 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AF3492DD2CC71FCF00018378 /* Build configuration list for PBXProject "PizzaGuysFoodCost" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3492D92CC71FCF00018378;
+			productRefGroup = AF3492E32CC71FCF00018378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3492E12CC71FCF00018378 /* PizzaGuysFoodCost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3492E02CC71FCF00018378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3493172CCA405500018378 /* LaunchScreen.storyboard in Resources */,
+				AF3493382CCF326F00018378 /* flatbread.json in Resources */,
+				AF34933C2CCF326F00018378 /* wings.json in Resources */,
+				AF34933A2CCF326F00018378 /* desserts.json in Resources */,
+				AFCB2EB72CD047E600187912 /* ToppingKeys.json in Resources */,
+				AF3492ED2CC71FD000018378 /* Preview Assets.xcassets in Resources */,
+				AF3493372CCF326F00018378 /* apps.json in Resources */,
+				AF3493392CCF326F00018378 /* catering.json in Resources */,
+				AF34933D2CCF326F00018378 /* pasta.json in Resources */,
+				AF34933E2CCF326F00018378 /* pizza.json in Resources */,
+				AF3493362CCF326F00018378 /* menu.json in Resources */,
+				AF34933B2CCF326F00018378 /* salads.json in Resources */,
+				AFCB2EBD2CD187CF00187912 /* ingredients.json in Resources */,
+				AF3492EA2CC71FD000018378 /* Assets.xcassets in Resources */,
+				AF601D3A2CE7FE4D00256143 /* extras.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3492DE2CC71FCF00018378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3493212CCE27E500018378 /* AppetizerResponse.swift in Sources */,
+				AF3493132CCA25AD00018378 /* ItemListView.swift in Sources */,
+				AF3493272CCE483A00018378 /* DessertsResponse.swift in Sources */,
+				AFCB2EC62CD2A02B00187912 /* FlatbreadCostView.swift in Sources */,
+				AF34931D2CCB73D500018378 /* MenuItemProtocol.swift in Sources */,
+				AF601D3C2CE7FFF900256143 /* Extras.swift in Sources */,
+				AF40DC1E2CDC72C1002AB3F5 /* PastaCostView.swift in Sources */,
+				AF34931B2CCB72C000018378 /* FlatbreadResponse.swift in Sources */,
+				AF3492F62CC7669700018378 /* HomeView-ViewModel.swift in Sources */,
+				AF40DC162CD6FDF3002AB3F5 /* ToppingInfo.swift in Sources */,
+				AFCB2EC82CD2A27700187912 /* ToppingNameService.swift in Sources */,
+				AF3493232CCE365400018378 /* WingsResponse.swift in Sources */,
+				AF3492FF2CC85B5600018378 /* PizzaGuysToolBarItem.swift in Sources */,
+				AF34930B2CC998BE00018378 /* LoadingView.swift in Sources */,
+				AF3493292CCEF1B000018378 /* CateringResponse.swift in Sources */,
+				AF40DC202CDC72DE002AB3F5 /* PastaCostView-ViewModel.swift in Sources */,
+				AF40DC0F2CD6F809002AB3F5 /* NameServiceProtocols.swift in Sources */,
+				AF601D2F2CE5DEEF00256143 /* DessertCostView.swift in Sources */,
+				AF40DC0C2CD2D27A002AB3F5 /* AppetizerCostView.swift in Sources */,
+				AFCB2EC22CD18ABC00187912 /* ItemPriceCalculator.swift in Sources */,
+				AF40DC242CDCA14F002AB3F5 /* SaladCostView-ViewModel.swift in Sources */,
+				AF3492E82CC71FCF00018378 /* HomeView.swift in Sources */,
+				AF601D2D2CE560A900256143 /* cateringCostView-ViewModel.swift in Sources */,
+				AF40DC1C2CDC1E5E002AB3F5 /* WingsCostView-ViewModel.swift in Sources */,
+				AFCB2EBF2CD187F800187912 /* IngredientsData.swift in Sources */,
+				AF40DC222CDCA13B002AB3F5 /* SaladCostView.swift in Sources */,
+				AFCB2EB22CD00AE900187912 /* ItemCostSheet.swift in Sources */,
+				AF40DC182CD881A7002AB3F5 /* AppetizerCostView-ViewModel.swift in Sources */,
+				AF3492FD2CC850BD00018378 /* CategoryItemsView.swift in Sources */,
+				AF3493012CC888B200018378 /* PizzaResponse.swift in Sources */,
+				AF34932B2CCF073D00018378 /* WelcomeView.swift in Sources */,
+				AFCB2ECA2CD2BC8F00187912 /* FlatbreadCostView-ViewModel.swift in Sources */,
+				AF3492E62CC71FCF00018378 /* PizzaGuysFoodCostApp.swift in Sources */,
+				AFCB2EB42CD02A9800187912 /* PizzaCostView.swift in Sources */,
+				AF3493252CCE410E00018378 /* SaladsResponse.swift in Sources */,
+				AF34930D2CC9A68100018378 /* CategoryItemsView-ViewModel.swift in Sources */,
+				AFCB2EBB2CD0926000187912 /* PizzaCostView-ViewModel.swift in Sources */,
+				AF40DC142CD6F990002AB3F5 /* PriceServiceProtocols.swift in Sources */,
+				AF601D312CE5DEFF00256143 /* DessertCostView-ViewModel.swift in Sources */,
+				AF3492F92CC82BE900018378 /* ItemView.swift in Sources */,
+				AF3492F42CC7666200018378 /* Category.swift in Sources */,
+				AF601D2B2CE5607F00256143 /* CateringCostView.swift in Sources */,
+				AF34931F2CCCC4E900018378 /* PastaResponse.swift in Sources */,
+				AF601D382CE7EB9700256143 /* ExtrasView-ViewModel.swift in Sources */,
+				AF601D362CE7EB6B00256143 /* ExtrasView.swift in Sources */,
+				AF3493062CC98E8100018378 /* Extensions.swift in Sources */,
+				AF40DC1A2CDC1DED002AB3F5 /* WingsCostView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF3492EE2CC71FD000018378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF3492EF2CC71FD000018378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3492F12CC71FD000018378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PizzaGuysFoodCost/Preview Content\"";
+				DEVELOPMENT_TEAM = 5U4R837TF6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r3zSoft.PizzaGuysFoodCost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF3492F22CC71FD000018378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PizzaGuysFoodCost/Preview Content\"";
+				DEVELOPMENT_TEAM = 5U4R837TF6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r3zSoft.PizzaGuysFoodCost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3492DD2CC71FCF00018378 /* Build configuration list for PBXProject "PizzaGuysFoodCost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3492EE2CC71FD000018378 /* Debug */,
+				AF3492EF2CC71FD000018378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3492F02CC71FD000018378 /* Build configuration list for PBXNativeTarget "PizzaGuysFoodCost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3492F12CC71FD000018378 /* Debug */,
+				AF3492F22CC71FD000018378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF3492DA2CC71FCF00018378 /* Project object */;
+}

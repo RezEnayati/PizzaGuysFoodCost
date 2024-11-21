@@ -1,0 +1,55 @@
+{
+  "sauces": [
+        "ranch",
+        "rSauce",
+        "wSauce",
+        "pSauce",
+        "cholula",
+        "xtraBuffaloSauce",
+        "chipotleDrizzle",
+        "buffaloSauce",
+        "spBbqSauce",
+        "mangoSauce",
+        "kogiSauce",
+        "teriyakiSauce"
+      ],
+  
+  "dressings" : [
+      "balsamicDressing",
+      "thousandIslandDressing",
+      "blueCheeseDressing",
+      "italianDressing",
+      "ranchDressing"
+    ],
+  
+  "sides" : [
+      "tomato",
+      "jalapeno",
+      "pineapple",
+      "anchovies",
+      "parmesanPacket",
+      "crushedRedPepper",
+      "lime"
+  ],
+  
+  "misc" : [
+      "plate",
+      "napkin",
+      "bagShirt",
+      "foamCup",
+      "glove"
+  ],
+  
+  "uniforms" : [
+      "pgHat",
+      "pgJacket",
+      "pgLongSleeveL",
+      "pgLongSleeveS",
+      "pgLongSleeveXL",
+      "pgLongSleeve2XL",
+      "pgLongSleeve3XL",
+      "pgPoloMng",
+      "pgTshirt",
+      "pgVisor"
+  ]
+}

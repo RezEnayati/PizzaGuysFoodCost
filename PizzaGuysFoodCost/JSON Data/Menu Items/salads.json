@@ -1,0 +1,174 @@
+{
+	"salads": [
+		{
+			"id": 1,
+			"name": "Garden Salad",
+			"imageName" : "gardenSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"lettuce",
+					"greenPepper",
+					"redOnion",
+					"blackOlive",
+					"tomato",
+					"cheese",
+					"cheddarCheese"
+				],
+				"quantities" : [
+					6.0,
+					0.4,
+					0.4,
+					0.4,
+					1.5,
+					0.25,
+					0.25
+				]
+
+			}
+		},
+		{
+			"id": 2,
+			"name": "Mediterranean Salad",
+			"imageName" : "MediterraneanSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"lettuce",
+					"greenPepper",
+					"redOnion",
+					"greenOlive",
+					"tomato",
+					"fetaCheese",
+					"greenOnion",
+					"basil"
+				],
+				"quantities" : [
+					6.0,
+					0.4,
+					0.4,
+					0.5,
+					1.5,
+                    0.5,
+					0.25,
+					0.05
+				]
+
+			}
+		},
+		{
+			"id": 3,
+			"name": "Crispy Chicken Salad",
+			"imageName" : "crispyChickenSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"lettuce",
+					"greenPepper",
+					"redOnion",
+					"blackOlive",
+					"tomato",
+					"cheese",
+					"cheddarCheese",
+					"bonelessWing"
+				],
+				"quantities" : [
+					6.0,
+					0.4,
+					0.4,
+					0.4,
+					1.5,
+					0.25,
+					0.25,
+					3.0
+				]
+
+			}
+		},
+		{
+			"id": 4,
+			"name": "Antipasto Salad",
+			"imageName" : "antiPastoSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"lettuce",
+					"greenPepper",
+					"redOnion",
+					"blackOlive",
+					"tomato",
+					"cheese",
+					"cheddarCheese",
+					"salami",
+					"ham"
+				],
+				"quantities" : [
+					6.0,
+					0.4,
+					0.4,
+					0.4,
+					1.5,
+					0.25,
+					0.25,
+					2.0,
+					2.0
+				]
+
+			}
+		},
+		{
+			"id": 5,
+			"name": "Bacon Chicken Salad",
+			"imageName" : "baconChickenSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"lettuce",
+					"greenPepper",
+					"redOnion",
+					"blackOlive",
+					"tomato",
+					"cheese",
+					"cheddarCheese",
+					"chicken",
+					"bacon"
+					
+				],
+				"quantities" : [
+					6.0,
+					0.4,
+					0.4,
+					0.4,
+					1.5,
+					0.25,
+					0.25,
+					1.0,
+					0.5
+				]
+
+			}
+		},
+		{
+			"id": 6,
+			"name": "Spinach Tomato Salad",
+			"imageName" : "spinachTomatoSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"spinach",
+					"tomato",
+					"redOnion",
+					"bacon",
+					"gorgonzola"
+					
+				],
+				"quantities" : [
+					2.5,
+					1.5,
+					0.4,
+					0.5,
+					0.5
+				]
+
+			}
+		}
+
+
+	]
+
+
+}

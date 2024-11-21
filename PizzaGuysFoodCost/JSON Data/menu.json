@@ -1,0 +1,13 @@
+{
+    "categories": [
+        { "id": 1, "name": "PIZZA", "imageName": "pizzaLogo" },
+        { "id": 2, "name": "FLATBREAD", "imageName": "flatBreadLogo" },
+        { "id": 3, "name": "APPS", "imageName": "appsLogo" },
+        { "id": 4, "name": "WINGS", "imageName": "wingsLogo" },
+        { "id": 5, "name": "PASTA", "imageName": "pastaLogo" },
+        { "id": 6, "name": "SALADS", "imageName": "saladLogo" },
+        { "id": 8, "name": "CATERING", "imageName": "cateringLogo" },
+        { "id": 7, "name": "DESSERTS", "imageName": "dessertsLogo" }
+        
+    ]
+}

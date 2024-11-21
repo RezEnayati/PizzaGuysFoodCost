@@ -1,0 +1,156 @@
+{
+	"catering" : [
+		{
+			"id": 1,
+			"name": "Garden Salad",
+            "type" : "salad",
+			"imageName" : "cateringGardenSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"lettuce",
+					"greenPepper",
+					"redOnion",
+					"blackOlive",
+					"tomato",
+					"cheese",
+					"cheddarCheese"
+				],
+				"quantities" : [
+					24.0,
+					1.5,
+					1.5,
+					1.5,
+					5.0,
+					1.0,
+					1.0
+				]
+
+			}
+		},
+		{
+			"id": 2,
+			"name": "Mediterranean Salad",
+            "type" : "salad",
+			"imageName" : "cateringMediterraneanSaladLogo",
+			"toppings": {
+				"ingredients" : [
+					"lettuce",
+					"greenPepper",
+					"redOnion",
+					"greenOlive",
+					"tomato",
+					"fetaCheese",
+					"greenOnion",
+					"basil"
+				],
+				"quantities" : [
+					24.0,
+					1.5,
+					1.5,
+					1.5,
+					5.0,
+					2.0,
+					1.0,
+					0.03
+				]
+
+			}
+		},
+		{
+		"id": 3,
+		"name": "Penne Pollo Rustico",
+        "type" : "pasta",
+		"imageName" : "polloRusticoCateringImage",
+		"toppings": {
+			"ingredients": [
+				"pasta",
+				"chicken",
+				"bacon",
+				"tomato",
+				"greenOnion",
+				"cheese",
+				"wSauce",
+				"basil"
+			],
+			"quantities" : [
+				32.0,
+				8.0,
+				2.0,
+				2.0,
+				2.0,
+				8.0,
+				22.0,
+				0.03
+			]
+		}
+	},
+	{
+		"id": 4,
+		"name": "Penne Sausage Marinara",
+        "type" : "pasta",
+		"imageName" : "penneSausageCateringLogo",
+		"toppings": {
+			"ingredients": [
+				"pasta",
+				"cheese",
+				"rSauce",
+				"sausage",
+				"basil"
+			],
+			"quantities" : [
+				32.0,
+				4.0,
+				22.0,
+				8.0,
+				0.03
+			]
+		}
+	},
+	{
+		"id": 5,
+		"name": "Penne Cheese Marinara",
+        "type" : "pasta",
+		"imageName" : "penneCheeseCateringLogo",
+		"toppings": {
+			"ingredients": [
+				"pasta",
+				"cheese",
+				"rSauce",
+				"basil"
+			],
+			"quantities" : [
+				32.0,
+				8.0,
+				22.0,
+				0.03
+			]
+		}
+	},
+	{
+		"id": 6,
+		"name": "Creamy Pesto Chicken",
+        "type" : "pasta",
+		"imageName" : "creamyPestoCateringLogo",
+		"toppings": {
+			"ingredients": [
+				"pasta",
+				"chicken",
+				"mushroom",
+				"blackOlive",
+				"cheese",
+				"pSauce",
+				"basil"
+			],
+			"quantities" : [
+				32.0,
+				4.0,
+				4.0,
+				4.0,
+				8.0,
+				22.0,
+				0.03
+			]
+		}
+	}
+	]
+} 

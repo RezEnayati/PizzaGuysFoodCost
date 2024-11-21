@@ -1,0 +1,34 @@
+{
+    "desserts": [
+        {
+            "id": 1,
+            "name": "Cheese Cake",
+            "imageName": "cheeseCakeLogo",
+            "ingredients" : ["cheeseCake"]
+        },
+        {
+            "id": 2,
+            "name": "cookie",
+            "imageName": "dessertsLogo",
+            "ingredients" : ["cookie", "bakingPaper14", "cBox"]
+        },
+        {
+            "id": 3,
+            "name": "Cinna Twist",
+            "imageName": "cinnaTwistLogo",
+            "ingredients" : ["cinnaTwist", "icing", "cinnaSugar", "foilSheet", "pBox"]
+        },
+        {
+            "id": 4,
+            "name": "Ice Cream",
+            "imageName": "iceCreamLogo",
+            "types": [
+                "cookieDough",
+                "dibs",
+                "drumstick",
+                "kitKat",
+                "oreo"
+            ]
+        }
+    ]
+}
