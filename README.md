@@ -83,8 +83,13 @@ Future implementation of a RESTful API to provide real-time pricing data.
 Integration of receipt scanning functionality using Apple's Vision framework and OCR technology. Where restaurant owners and managers can get
 the cost of an order by scanning the receipt. 
 
-![Welcome Screen]
-<img src="screenshots/welcomeSheet.png" width="250" alt="Home Screen">
+## Screen Shots
+<p float="left">
+  <img src="screenshots/welcomeSheet.png" width="250" />
+  <img src="screenshots/itemsView.png" width="250" /> 
+  <img src="screenshots/pizzaView.png" width="250" />
+</p>
+
 
 
 ![Cost Calculator](screenshots/cost_calculator.png)
