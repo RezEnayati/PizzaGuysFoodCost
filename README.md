@@ -99,14 +99,6 @@ the cost of an order by scanning the receipt.
 <div align="left">
  
  <p float="left">
-   <img src="screenshots/welcomeSheet.png" width="250" />
-   <img src="screenshots/itemsView.png" width="250" /> 
-   <img src="screenshots/pizzaView.png" width="250" />
- </p>
- <p>
-   <em>Left: Welcome Screen • Middle: Menu Categories • Right: Pizza Cost Calculator</em>
- </p>
-
  <p float="left">
    <img src="screenshots/saladView.png" width="250" />
    <img src="screenshots/stuffedCrustView.png" width="250"/>
