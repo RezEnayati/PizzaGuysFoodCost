@@ -3,6 +3,18 @@
 ## Overview
 An iOS application developed to streamline Pizza Guys menu costing and inventory management. Built with SwiftUI and following MVVM architecture, this app provides real-time cost calculations and inventory tracking for restaurant operations.
 
+<div align="left">
+ 
+ <p float="left">
+   <img src="screenshots/welcomeSheet.png" width="250" />
+   <img src="screenshots/itemsView.png" width="250" /> 
+   <img src="screenshots/pizzaView.png" width="250" />
+ </p>
+ <p>
+   <em>Left: Welcome Screen • Middle: Menu Categories • Right: Pizza Cost Calculator</em>
+ </p>
+</div>
+
 ## Features
 
 ### Menu Management
