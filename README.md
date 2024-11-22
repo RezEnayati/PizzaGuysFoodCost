@@ -84,10 +84,25 @@ Integration of receipt scanning functionality using Apple's Vision framework and
 the cost of an order by scanning the receipt. 
 
 ## Screen Shots
-<p float="left">
-  <img src="screenshots/welcomeSheet.png" width="250" />
-  <img src="screenshots/itemsView.png" width="250" /> 
-  <img src="screenshots/pizzaView.png" width="250" />
-  <img src="screenshots/saladView.png" width="250" />
- <img src="screenshots/stuffedCrustView.png" width="250" />
-</p>
+
+<div align="left">
+ <!-- Row 1 -->
+ <p float="left">
+   <img src="screenshots/welcomeSheet.png" width="250" />
+   <img src="screenshots/itemsView.png" width="250" /> 
+   <img src="screenshots/pizzaView.png" width="250" />
+ </p>
+ <p>
+   <em>Left: Welcome Screen • Middle: Menu Categories • Right: Pizza Cost Calculator</em>
+ </p>
+
+ <!-- Row 2 -->
+ <p float="left">
+   <img src="screenshots/saladView.png" width="250" />
+   <img src="screenshots/stuffedCrustView.png" width="250"/>
+   <img src="screenshots/extrasView.png" width="250" />
+ </p>
+ <p>
+   <em>Left: Salad Cost View • Middle: Stuffed Crust Options • Right: Extra Items View</em>
+ </p>
+</div>
