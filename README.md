@@ -51,10 +51,13 @@ An iOS application developed to streamline Pizza Guys menu costing and inventory
 
 ### MVVM Implementation
 - **Models:** 
- - MenuItem Protocol
  - Category
  - Menu item types (Pizza, Pasta, Wings, etc.)
  - Ingredient data structures
+
+ - **Services:**
+ - ItemPriceCalculator
+ - ToppingNameService
  
 - **ViewModels:**
  - Cost calculation logic
