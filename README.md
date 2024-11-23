@@ -6,8 +6,8 @@ An iOS application developed to streamline Pizza Guys menu costing and inventory
 <div align="left">
  
  <p float="left">
-   <img src="screenshots/welcomeSheet.png" width="250" />
-   <img src="screenshots/gif2.gif" width="250" /> 
+   <img src="screenshots/gif2.gif" width="250" />
+   <img src="screenshots/gif1.gif" width="250" /> 
    <img src="screenshots/gif3.gif" width="250" />
  </p>
  <p>
