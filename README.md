@@ -10,9 +10,6 @@ An iOS application developed to streamline Pizza Guys menu costing and inventory
    <img src="screenshots/gif1.gif" width="250" /> 
    <img src="screenshots/gif3.gif" width="250" />
  </p>
- <p>
-   <em>Left: Welcome Screen • Middle: Menu Categories • Right: Pizza Cost Calculator</em>
- </p>
 </div>
 
 ## Features
@@ -101,6 +98,9 @@ the cost of an order by scanning the receipt.
    <img src="screenshots/welcomeSheet.png" width="250" />
    <img src="screenshots/itemsView.png" width="250" /> 
    <img src="screenshots/pizzaView.png" width="250" />
+ </p>
+ <p>
+   <em>Left: Welcome Screen • Middle: Menu Categories • Right: Pizza Cost Calculator</em>
  </p>
  <p float="left">
    <img src="screenshots/saladView.png" width="250" />
