@@ -76,7 +76,7 @@ An iOS application developed to streamline Pizza Guys menu costing and inventory
 
 ## Current Development
 🚧 Features currently in development:
-- [ ] Costs For create your own items. 
+- [ ] Costs For create your own items
 - [ ] Caching 
 - [ ] Unit Tests
 
